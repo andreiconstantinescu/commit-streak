@@ -1,0 +1,59 @@
+body {
+  font-size: 16px;
+}
+.container {
+  text-align: center
+}
+.congrats{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2em;
+  font-wight: 300;
+  margin-top: 0.5em;
+}
+
+.homercat img {
+  height: 80%;
+  width: auto;
+  position: relative;
+}
+
+.eye {
+  width: 80px; /*required, but can be any value*/
+  height: 80px; /*required, but can be any value*/
+  background: #fff; /*recommended, but can any value*/
+  -webkit-border-radius: 50%; /*optional -- compatibiliy only*/
+  -moz-border-radius: 50%; /*optional -- compatibiliy only*/
+  border-radius: 50%; /*optional*/
+  border: 1px solid rgba(0,0,0,1); /*optional*/
+  float: left;
+}
+
+.iris {
+  background: #000; /*recommended, but can any value*/
+  width:25px; /*required, but can be any value*/
+  height:25px; /*required, but can be any value*/
+  -webkit-border-radius: 50%; /*optional -- compatibiliy only*/
+  -moz-border-radius: 50%; /*optional -- compatibiliy only*/
+  border-radius: 50%; /*optional*/
+}
+
+#wrap {
+  margin: 50px auto 0;
+  width: 248px;
+  height: 100%;
+  position: absolute;
+  top: 24.8%;
+  left: 50%;
+  /*transform: translateX(-53%);
+  -webkit-transform: translateX(-53%);*/
+}
+
+.eye-1 {
+  position: absolute;
+  left: -38%;
+}
+
+.eye-2 {
+  position: absolute;
+  left: -28.5%;
+}

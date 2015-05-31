@@ -67,3 +67,20 @@ body {
     display: none
   }
 }
+
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+  .eye {
+    width: 65px;
+    height: 65px;
+  }
+  .iris {
+    width: 10px;
+    height: 10px;
+  }
+  #wrap {
+   top: 29.6%
+  }
+  .eye-2 {
+    left: 44.2%
+  }
+}
